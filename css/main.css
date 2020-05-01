@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+}
+.card{
+    display: grid;
+    grid-template-row: 1fr;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #666;
+    max-width: 70vw;
+    margin:0px auto;
+    background-color: rgb(161, 220, 238);
+}
+h1{
+    text-align: center;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Bank Account Details</h1>
+        <div class="card">
+            
+                <div class="form-control">
+                    <label for="customerId">Enter Customer ID</label>
+                    <input type="text" id="customerId" placeholder="Enter ID">
+                    <input type="button" value="Lookup Customer" id="lookupBtn"><br/>
+                    <span id="error"></span>
+                </div>
+                <hr />
+                <div class="form-control">
+                    <label for="withdraw">Amount to Withdraw</label>
+                    <input type="text" id="withdraw" placeholder="e.g. 100.00">
+                    <input type="button" value="Withdraw" id="withdrawBtn">
+                </div>
+                <div class="form-control">
+                    <label for="customerId">Amount to Deposit</label>
+                    <input type="text" id="deposit" placeholder="e.g. 200.00">
+                    <input type="button" value="Deposit" id="depositBtn">
+                </div>
+           
+            <div id="screen"></div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
